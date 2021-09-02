@@ -1,0 +1,58 @@
+1- sudo useradd -c "Islam Askar" Islam
+   sudo passwd islam
+
+2- sudo useradd -c "Bad User" baduser
+   sudo passwd baduser
+
+3- sudo groupadd -g 3000 pgroup
+
+4- sudo groupadd badgroup
+
+5- sudo usermod -G pgroup Islam
+
+6- sudo passwd Islam
+
+7- sudo chage -M 30 Islam
+
+8- sudo usermod -L baduser
+
+9- sudo userdel baduser
+
+10-sudo groupdel badgroup
+
+13-mkdir myteam
+   chmod 444 myteam
+   
+14-exit
+   su - Amr
+   
+15-permission denied
+
+16-chmod 621 oldpasswd
+   chmod u=rw,g=w,o=x
+   default for directory : 777
+   default for file: 666
+
+17-
+	copy a directory : you need read execute and read for source directory, and execute and write for target directory
+	copy a file: read is enough
+	delete a file : nothing can prevent deleting a file
+	change to a directory: execute is enough
+	list a directory content: read and execute
+	view a file content: read
+	modify a file content: read and write
+
+18-the file is uneditable
+   the file is deleted after confirmation that it is write protected
+   
+19-in a file the x permission implies that the file is executable, while in a directory it allows access to it.
+
+20- sleep 100&
+
+21- kill -19 2888
+
+22-ps -u Amr
+
+23-ps -u Amr -N
+
+24-pgrep -u Amr
