@@ -1,0 +1,6 @@
+1- tar -tf compressedFile.tar
+2- tar -cf etc.tar /etc
+3- { ls -id / ; ls -id /etc ; ls -id /etc/hosts }
+4- cp /etc/passwd /home/amr
+5- ln -s /etc/passwd /boot/linkedPasswd
+6- cannot create a hardlink because they have different filesystems
